@@ -159,7 +159,7 @@ header {
 
                 @media (max-width: $breakpoint-mobile) {
                     font-size: 0.9rem;
-                    white-space: nowrap;
+                    white-space: wrap;
                 }
 
                 &:hover {

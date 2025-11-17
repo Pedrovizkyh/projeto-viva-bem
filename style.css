@@ -84,7 +84,7 @@ header .box-header nav a {
 @media (max-width: 768px) {
   header .box-header nav a {
     font-size: 0.9rem;
-    white-space: nowrap;
+    white-space: wrap;
   }
 }
 header .box-header nav a:hover {
