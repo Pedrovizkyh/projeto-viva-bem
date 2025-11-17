@@ -199,25 +199,14 @@ header {
             font-size: 2.8rem;
             @include gradient-text($titles-gradient);
             margin-bottom: $spacing-md;
-            line-height: 2.8rem;
+            line-height: 2.8;
             font-weight: bold;
-
-            @media (max-width: $breakpoint-mobile) {
-                font-size: 2rem;
-                line-height: 1.3;
-            }
         }
 
         p {
             font-size: 1.6rem;
             color: $color-dark;
             margin-bottom: $spacing-lg;
-            line-height: 100%;
-
-            @media (max-width: $breakpoint-mobile) {
-                font-size: 1rem;
-                margin-bottom: 25px;
-            }
         }
 
         .botoes {
