@@ -286,19 +286,18 @@ header {
         font-weight: bold;
 
         @media (max-width: $breakpoint-mobile) {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
     
     > p {
         font-size: 1.25rem;
         color: $color-dark;
-        line-height: 1.6;
         max-width: 800px;
         margin: 0 auto $spacing-xxl auto;
 
         @media (max-width: $breakpoint-mobile) {
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin-bottom: $spacing-xl;
         }
     }
@@ -328,13 +327,13 @@ header {
             font-size: 1.25rem;
             color: #04031C;
             margin-bottom: $spacing-xs;
-            font-weight: 600;
+            font-weight: bold;
         }
         
         p {
             color: #04031C;
-            line-height: 100%;
-            font-size: 1.1rem;
+            font-size: 1rem;
+            line-height: 1.25;
         }
     }
 }
@@ -389,7 +388,7 @@ header {
         h3 {
             font-size: 1.25rem;
             margin-bottom: $spacing-sm;
-            font-weight: 700;
+            font-weight: bold;
         }
         
         ul {
@@ -397,7 +396,7 @@ header {
             width: 100%;
             
             li {
-                line-height: 25px;
+                line-height: 1.25;
                 font-size: 1rem;
                 margin-bottom: 8px;
                 padding-left: 5px;
@@ -435,13 +434,13 @@ header {
     
     h2 {
         font-family: "Inter", sans-serif;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         @include gradient-text($titles-gradient);
         margin-bottom: 50px;
         font-weight: bold;
         
         @media (max-width: $breakpoint-mobile) {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
     
@@ -503,7 +502,7 @@ header {
                 h3 {
                     font-size: 1.25rem;
                     margin-bottom: 0;
-                    font-weight: 700;
+                    font-weight: bold;
                     text-align: left;
                     flex: 1;
 
@@ -514,7 +513,7 @@ header {
             }
             
             p {
-                line-height: 1.6;
+                line-height: 1.25;
                 font-size: 1rem;
                 margin: 0;
             }
@@ -586,7 +585,7 @@ footer {
         }
         
         h3 {
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             margin-bottom: $spacing-xs;
             font-weight: 600;
             font-style: italic;
